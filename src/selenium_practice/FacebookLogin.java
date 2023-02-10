@@ -17,8 +17,8 @@ public class FacebookLogin {
 		driver.manage().window().maximize();
 		driver.get("httP://facebook.com");
 		
-		driver.findElement(By.id("email")).sendKeys("kyaminik@gmail.com");
-		driver.findElement(By.id("pass")).sendKeys("Yam1n1@FaceB00k");
+		driver.findElement(By.id("email")).sendKeys("example@gmail.com");
+		driver.findElement(By.id("pass")).sendKeys("password");
 		driver.findElement(By.name("login")).click();
 		driver.close();
 
